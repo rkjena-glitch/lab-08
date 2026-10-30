@@ -1,7 +1,7 @@
 # CMPUT 301: Lab 8 Participation Exercise
 
 ## Student Details
-- **Full Name:** `<Ritesh Jena>`
+- **Full Name:** `<Ritesh Kumar Jena>`
 - **CCID:** `<rkjena>`
 
 ## References and Resources
