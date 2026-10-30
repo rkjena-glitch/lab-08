@@ -32,4 +32,17 @@ class WizardTest {
 
         assertEquals(5, evilWizard.mana) // mana still is 5
     }
+    @Test
+    fun restoreMana_capsAt100() {
+        evilWizard.restoreMana(75)
+
+        assertEquals(100, evilWizard.mana)
+    }
+
+    @Test
+    fun restoreMana_addsManaNormally() {
+        evilWizard.restoreMana(25)
+
+        assertEquals(55, evilWizard.mana)
+    }
 }
